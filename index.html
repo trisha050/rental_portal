@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Real Estate Rental Portal</title>
+  <link rel="stylesheet" href="trisha.css" />
+
+  <!-- Font Awesome for Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <style>
+      body{
+        background: url('Images/musonda.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <div class="icon">
+      <h2 class="logo"><span><i class="fas fa-building"></i> REAL ESTATE RENTAL</span> PORTAL</h2>
+    </div>
+    <nav class="menu">
+      <ul class="nav-links">
+        <li><a href="trisha.html"><i class="fas fa-home"></i> HOME</a></li>
+        <li><a href="About.html"><i class="fas fa-info-circle"></i> ABOUT</a></li>
+        <li><a href="Property type.html"><i class="fas fa-building"></i>Property type</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Welcome Text -->
+  <div class="content">
+    <h1><i class="fas fa-house-user"></i> Welcome to Online Real Estate Rental Portal</h1>
+    <p class="par">
+      <i class="fas fa-search-location"></i> Find your next home with ease. 
+      <br>Browse available rentals, connect with verified landlords, and schedule property visits — all in one place.
+    </p>
+  </div>
+
+  <!-- Login Form -->
+  <form class="login-form" action="trisha.php" method="post">
+    <div class="textbox">
+      <h2><i class="fas fa-sign-in-alt"></i> Login</h2>
+
+      <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="text" name="username" placeholder="Username" required>
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" name="password" placeholder="Password" required>
+      </div>
+    </div>
+    <div class="remember-me">
+      <input type="checkbox" id="remember" name="remember">
+   <label for="remember"></i> Remember me</label><br><br> 
+    </div>
+    
+    <div class="login-button">
+      <input type="submit" value="Login">
+    </div><br>
+
+    <div class="links">
+      <i class="fas fa-question-circle"></i> <a href="Forgot-password.html">Forgot password?</a><br>
+      <i class="fas fa-user-plus"></i> Don't have an account? <a href="Signup.html">Register here</a>
+    </div>
+  </form>
+
+</body>
+</html>
